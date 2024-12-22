@@ -1,0 +1,58 @@
+#contentcontainer{
+    margin-right: 225px;
+    margin-left: 225px;
+}
+
+#EventHeader{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#EventHeader > div{
+    margin-top: 25px;
+    margin-left: 450px;
+}
+
+h2{
+    margin-top: 35px;
+}
+
+#EventHeader button{
+    height: 50px;
+    width: 150px;
+    background-color: #66bb6a;
+    color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.events{
+    margin-top: 25px;
+    height: 150px;
+    text-align: right;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#EventInfo{
+    text-align: left;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+#registerbutton{
+    background-color: #66bb6a;
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 150px;
+    height: 100px;
+    width: 175px;
+}

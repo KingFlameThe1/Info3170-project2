@@ -1,0 +1,41 @@
+
+.s1{
+    display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows:800px 800px 800px ;
+    
+}
+
+
+.s2{
+    /*width   :   150px;
+    height  :   150px;*/
+    display:block;
+    margin: 25px;
+    background-color:#D9D9D9;
+    border-radius: 2%;
+    
+}
+
+.material{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 200px;
+	width: 200px;
+}
+
+.s3{
+    display:block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.s3 > h2{
+    text-align: center;
+}
+
+.a2{
+    color:blue;
+}

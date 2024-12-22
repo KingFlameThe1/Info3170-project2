@@ -1,0 +1,45 @@
+#contentcontainer{
+    margin-right: 225px;
+    margin-left: 225px;
+}
+
+.events{
+    margin-top: 50px;
+    height: 150px;
+    text-align: right;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#EventInfo{
+    text-align: left;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+#RegListBtn{
+    background-color: #66bb6a;
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 75px;
+    height: 100px;
+    width: 175px;
+}
+
+#CancelBtn{
+    background-color: #CE3A3A;
+    color: white;
+    border-radius: 15px;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 75px;
+    height: 100px;
+    width: 175px;
+}
