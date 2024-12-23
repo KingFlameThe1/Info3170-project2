@@ -1,0 +1,29 @@
+.s1{
+    margin: 50px;
+    background-color:#D9D9D9;
+}
+
+form{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    margin:20px;
+}
+
+.d1{
+    grid-column: 1;
+}
+
+#ename{
+    width: 250px;
+    height: 20px;
+}
+
+#desc{
+    width:70%;
+    height: 150px;
+}
+
+#location{
+    width:350px;
+    height: 20px;
+}
