@@ -9,16 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
         var location = document.getElementById("location").value;
         var eventDate = document.getElementById("date").value;
 
-        if(EName == null){
+        //console.log(EName);
+        //console.log(descr);
+        //console.log(location);
+        //console.log(eventDate);
+
+        if(EName == ""){
             alert("Please fill out all fields.");
         }
-        else if(descr == null){
+        else if(descr == ""){
             alert("Please fill out all fields.");
         }
-        else if(location == null){
+        else if(location == ""){
             alert("Please fill out all fields.");
         }
-        else if(eventDate == null){
+        else if(eventDate == ""){
             alert("Please fill out all fields.");
         }
         else{
