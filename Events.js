@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
     var yevents = document.getElementById("YourEventsBtn");
     var cevents = document.getElementById("CreateEventsBtn");
+    var register = document.getElementById("registerbutton");
+    var registered = document.getElementById("amount");
+
+    registered.innerHTML = "Number Registered: 3"
+
+
 
     yevents.addEventListener("click", function(e){
         e.preventDefault;
@@ -10,6 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
     cevents.addEventListener("click", function(e){
         e.preventDefault;
         window.location = "CreateEvents.html";
+    });
+
+    register.addEventListener("click", function(e){
+        e.preventDefault;
+        registered.innerHTML = "Number Registered: 4"
     });
 
 });//end DOMContentLoaded event listener
