@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     register.addEventListener("click", function(e){
         e.preventDefault;
         registered.innerHTML = "Number Registered: 4"
+        alert("Your have registered for the event successfully.");
     });
 
 });//end DOMContentLoaded event listener

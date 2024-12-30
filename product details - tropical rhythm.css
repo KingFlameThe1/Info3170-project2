@@ -1,0 +1,90 @@
+#contentcontainer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#ProductInfo{
+    text-align: justify;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+/*#ProdContent > img{
+    display: inline;
+}*/
+
+#prodimg{
+    height: 250px;
+}
+
+.compare{
+    margin-bottom: 5px;
+}
+
+.compare > img{
+    height: 75px;
+}
+
+.ProdStat{
+    background-color: green;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.CompetStat{
+    background-color: gray;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    margin-left: -5px;
+    margin-bottom: 30px;
+}
+
+/*#ProdStat1{
+    width: 350;
+}
+
+#CompetStat1{
+    width: 50;
+}
+
+#ProdStat2{
+    width: 250;
+}  
+
+#CompetStat2{
+    width: 150;
+}
+
+#ProdStat3{
+    width: 200;
+}
+
+#CompetStat3{
+    width: 200;
+}*/
+
+#ProdRating > img{
+    float: right;
+    height: 40px;
+}
+
+#star5{
+    display: none;
+}
